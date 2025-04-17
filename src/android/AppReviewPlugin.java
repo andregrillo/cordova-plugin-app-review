@@ -1,7 +1,7 @@
 package by.chemerisuk.cordova;
 
 import static com.google.android.gms.tasks.Tasks.await;
-import static by.chemerisuk.cordova.support.ExecutionThread.WORKER;
+import static com.cordova.plugin.appreview.vendor.ExecutionThread.WORKER;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -15,8 +15,8 @@ import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaArgs;
 import org.json.JSONException;
 
-import by.chemerisuk.cordova.support.CordovaMethod;
-import by.chemerisuk.cordova.support.ReflectiveCordovaPlugin;
+import com.cordova.plugin.appreview.vendor.CordovaMethod;
+import com.cordova.plugin.appreview.vendor.ReflectiveCordovaPlugin;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
