@@ -31,9 +31,9 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <source-file src="src/ios/AppReviewPlugin.m" />
 
         <framework src="StoreKit.framework" />
-    <source-file src="src/android/vendor/ReflectiveCordovaPlugin.java" target-dir="src/com/cordova/plugin/appreview/vendor" />
-    <source-file src="src/android/vendor/CordovaMethod.java" target-dir="src/com/cordova/plugin/appreview/vendor" />
-    <source-file src="src/android/vendor/ExecutionThread.java" target-dir="src/com/cordova/plugin/appreview/vendor" />
+    <source-file src="src/android/vendor/ReflectiveCordovaPlugin.java" target-dir="com/cordova/plugin/appreview/vendor" />
+    <source-file src="src/android/vendor/CordovaMethod.java" target-dir="com/cordova/plugin/appreview/vendor" />
+    <source-file src="src/android/vendor/ExecutionThread.java" target-dir="com/cordova/plugin/appreview/vendor" />
     </platform>
 
     <platform name="android">
